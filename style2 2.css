@@ -1,0 +1,25 @@
+header{
+	background-color: lightcoral;
+	text-align: center;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+}
+
+article {
+	display: flex;
+	align-items: baseline;
+}
+
+
+section{
+	border: 3px solid hotpink;
+	background-color: pink;
+	width: 400px;
+	flex-wrap: wrap;
+	line-height: 25px;
+	word-break: keep-all;
+}
+
