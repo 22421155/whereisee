@@ -5,6 +5,7 @@
 
 header {
 	background-color: pink;
+	text-align: center;
 }
 
 nav {
@@ -14,7 +15,7 @@ nav {
 .p1 {
 	position: absolute;
 	top: 100px;
-	left: 100px;
+	left: 650px;
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
@@ -29,7 +30,7 @@ nav {
 .p2 {
 	position: absolute;
 	top: 100px;
-	left: 300px;
+	left: 850px;
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
@@ -44,7 +45,7 @@ nav {
 .p3 {
 	position: absolute;
 	top: 180px;
-	left: 230px;
+	left: 780px;
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
@@ -55,7 +56,7 @@ nav {
 .p4 {
 	position: absolute;
 	top: 120px;
-	left: 320px;
+	left: 870px;
 	background-color: white;
 	width: 20px;
 	height: 20px;
@@ -65,7 +66,7 @@ nav {
 .p5 {
 	position: absolute;
 	top: 120px;
-	left: 120px;
+	left: 670px;
 	background-color: white;
 	width: 20px;
 	height: 20px;
@@ -75,7 +76,7 @@ nav {
 .p6 {
 	position: absolute;
 	top: 180px;
-	left: 10px;
+	left: 560px;
 	width: 100px;
 	height: 10px;
 	background-color: black;
@@ -84,7 +85,7 @@ nav {
 .p7 {
 	position: absolute;
 	top: 200px;
-	left: 10px;
+	left: 560px;
 	width: 100px;
 	height: 10px;
 	background-color: black;
@@ -93,7 +94,7 @@ nav {
 .p8 {
 	position: absolute;
 	top: 200px;
-	left: 420px;
+	left: 970px;
 	width: 100px;
 	height: 10px;
 	background-color: black;
@@ -102,7 +103,7 @@ nav {
 .p9 {
 	position: absolute;
 	top: 180px;
-	left: 420px;
+	left: 970px;
 	width: 100px;
 	height: 10px;
 	background-color: black;
@@ -111,7 +112,7 @@ nav {
 .p10 {
 	position: absolute;
 	top: 60px;
-	left: 60px;
+	left: 610px;
 	width: 40px;
 	height: 40px;
 	background-color: darkgreen;
@@ -120,7 +121,7 @@ nav {
 .p11 {
 	position: absolute;
 	top: 60px;
-	left: 400px;
+	left: 950px;
 	width: 40px;
 	height: 40px;
 	background-color: darkgreen;
@@ -129,7 +130,7 @@ nav {
 .p12 {
 	position: absolute;
 	top: 500px;
-	left: 100px;
+	left: 650px;
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
@@ -139,7 +140,7 @@ nav {
 .p13 {
 	position: absolute;
 	top: 500px;
-	left: 300px;
+	left: 850px;
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
@@ -149,7 +150,7 @@ nav {
 .p14 {
 	position: absolute;
 	top: 520px;
-	left: 320px;
+	left: 870px;
 	background-color: white;
 	width: 20px;
 	height: 20px;
@@ -159,7 +160,7 @@ nav {
 .p15 {
 	position: absolute;
 	top: 520px;
-	left: 120px;
+	left: 670px;
 	background-color: white;
 	width: 20px;
 	height: 20px;
@@ -169,7 +170,7 @@ nav {
 .p16 {
 	position: absolute;
 	top: 580px;
-	left: 230px;
+	left: 780px;
 	width: 35px;
 	height: 25px;
 	border-radius: 15px;
@@ -180,7 +181,7 @@ nav {
 .p17 {
 	position: absolute;
 	top: 300px;
-	left: 100px;
+	left: 650px;
 	width: 80px;
 	height: 180px;
 	border-radius: 50px;
@@ -190,7 +191,7 @@ nav {
 .p18 {
 	position: absolute;
 	top: 300px;
-	left: 320px;
+	left: 870px;
 	width: 80px;
 	height: 180px;
 	border-radius: 50px;
@@ -216,5 +217,193 @@ li {
 .bb {
 	background-color: blue;
 }
+
+@media screen and (max-width: 900px) {
+	.p1 {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: linear-gradient(darkgreen 50px, lightgreen);
+	color: black;
+	word-break: keep-all;
+	text-align: center;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.p2 {
+	position: absolute;
+	top: 100px;
+	left: 250px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: linear-gradient(darkgreen 50px, lightgreen);
+	color: black;
+	word-break: keep-all;
+	text-align: center;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.p3 {
+	position: absolute;
+	top: 180px;
+	left: 180px;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background: linear-gradient(orange, yellow);
+	box-shadow: 5px 5px 5px 1px black;
+}
+
+.p4 {
+	position: absolute;
+	top: 120px;
+	left: 270px;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.p5 {
+	position: absolute;
+	top: 120px;
+	left: 70px;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.p6 {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	width: 100px;
+	height: 10px;
+	background-color: black;
+}
+
+.p7 {
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	width: 100px;
+	height: 10px;
+	background-color: black;
+}
+
+.p8 {
+	position: absolute;
+	top: 200px;
+	left: 370px;
+	width: 100px;
+	height: 10px;
+	background-color: black;
+}
+
+.p9 {
+	position: absolute;
+	top: 180px;
+	left: 370px;
+	width: 100px;
+	height: 10px;
+	background-color: black;
+}
+
+.p10 {
+	position: absolute;
+	top: 60px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	background-color: darkgreen;
+}
+
+.p11 {
+	position: absolute;
+	top: 60px;
+	left: 350px;
+	width: 40px;
+	height: 40px;
+	background-color: darkgreen;
+}
+
+.p12 {
+	position: absolute;
+	top: 500px;
+	left: 60px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: linear-gradient(darkred 50px, red);
+}
+
+.p13 {
+	position: absolute;
+	top: 500px;
+	left: 250px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: linear-gradient(darkred 50px, red);
+}
+
+.p14 {
+	position: absolute;
+	top: 520px;
+	left: 270px;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.p15 {
+	position: absolute;
+	top: 520px;
+	left: 70px;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.p16 {
+	position: absolute;
+	top: 580px;
+	left: 180px;
+	width: 35px;
+	height: 25px;
+	border-radius: 15px;
+	background: linear-gradient(orange, yellow);
+	box-shadow: 5px 5px 5px 1px black;
+}
+
+.p17 {
+	position: absolute;
+	top: 300px;
+	left: 50px;
+	width: 80px;
+	height: 180px;
+	border-radius: 50px;
+	background: linear-gradient(black 50px, lightgray);
+}
+
+.p18 {
+	position: absolute;
+	top: 300px;
+	left: 270px;
+	width: 80px;
+	height: 180px;
+	border-radius: 50px;
+	background: linear-gradient(black 50px, lightgray);
+}
+
 
 
