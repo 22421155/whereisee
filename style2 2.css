@@ -23,3 +23,13 @@ section{
 	word-break: keep-all;
 }
 
+@media screen and (max-width: 900px) {
+	body {
+		background-color: lightblue;
+	}
+	p {
+		font-size: 15px;
+		line-height: 20px;
+		word-break: keep-all;
+	}
+}
